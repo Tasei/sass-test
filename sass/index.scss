@@ -1,0 +1,46 @@
+$width: 500px;
+$height: 100px;
+$bg-color: green;
+$bg-red: red;
+$border: 2px solid #000;
+h2{
+	color: green;
+}
+.map{
+	width:200px;
+	height: 200px;
+	background-color: red;
+	a{
+		font-size: 16px;
+		color: green;
+		&:hover{
+			font-size: 24px;
+			color: #000;
+		}
+	}
+	&:hover{
+		background-color: #fff;
+		border: 1px solid #000;
+	}
+}
+.div1{
+	font:{
+		family: fantasy;
+	    size: 30px;
+	    weight: bold;
+	}
+	width: $width;
+	background-color: $bg-color;
+}
+.div2{
+	font:{
+		family: '宋体';
+		size: 36px;
+	}
+	color:#000;
+	background-color: $bg-red;
+	height: $height;
+	line-height: $height;
+	border: $border;
+}
+
