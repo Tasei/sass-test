@@ -34,8 +34,9 @@ h2{
 }
 .div2{
 	font:{
-		family: '宋体';
+		family: fantasy;
 		size: 36px;
+		weight: bold;
 	}
 	color:#000;
 	background-color: $bg-red;
@@ -43,4 +44,15 @@ h2{
 	line-height: $height;
 	border: $border;
 }
-
+.div3{
+	p{
+		width: $width;
+		background-color: $bg-color;
+		font: {
+			size:24px;
+			family: fantasy;
+		}
+	}
+	border: $border;
+	padding: 10px;
+}
